@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Youtube Autoliker",
+    "description": "Automatically like any Youtube video in the world!",
+    "host_permissions": ["https://www.youtube.com/*"],
+    "permissions": ["scripting", "tabs"],
+    "action": {
+       "default_popup": "popup.html"
+    }
+}
